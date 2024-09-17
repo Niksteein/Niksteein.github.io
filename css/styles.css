@@ -16,13 +16,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: white;
+  background-color: ;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 6rem;
+  height: 10vh;
   background-color: black;
   color: white;
   align-items: center;
@@ -38,6 +38,18 @@ body {
 }
 
 .home {
-  height: 50rem;
-  background-image: url('img/Maxima1.jpg');
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/Maxima1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home h3 {
+  color: white;
 }
