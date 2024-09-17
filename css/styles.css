@@ -36,3 +36,8 @@ body {
 .nav .nav-navbar a {
   color: white;
 }
+
+.home {
+  height: 50rem;
+  background-image: url('img/Maxima1.jpg');
+}
