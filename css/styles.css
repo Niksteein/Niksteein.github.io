@@ -55,3 +55,28 @@ body {
   color: white;
   font-size: 1.5rem;
 }
+
+.profil {
+  background-color: var(--bg1);
+  height: 80vh;
+  width: 100%;
+  color: white;
+  padding: 5rem;
+  display: flex;
+}
+
+.profil .img-p {
+  width: 50%;
+  height: ;
+  float: left;
+}
+
+.profil .img-p img {
+  width: 40%;
+  height: 15rem;
+}
+
+.profil .text-p {
+  width: 50%;
+  float: right;
+}
