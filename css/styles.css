@@ -1,8 +1,8 @@
 :root {
-  --primary: #ff6a01;
-  --bg1: #242424;
-  --bg2: #3c3c3c;
-  --bg3: #ffc258;
+  --primary: #1D24CA;
+  --bg1: #201658;
+  --bg2: #F9E8C9;
+  --bg3: #;
 }
 
 * {
@@ -17,5 +17,17 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: ;
-  height: 200vh;
+  height: auto;
+}
+
+header {
+  background-color: var(--bg1);
+  padding: 25px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: ;
 }
